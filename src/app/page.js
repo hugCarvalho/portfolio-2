@@ -1,3 +1,5 @@
+import RenderModel from "@/components/RenderModel";
+import Model from "@/components/models/Model";
 import Navigation from "@/components/navigation";
 import Image from "next/image";
 import bg from "../../public/background/home-background.png";
@@ -16,6 +18,9 @@ export default function Home() {
 
       <div className="w-full h-screen">
         <Navigation />
+        <RenderModel>
+          <Model />
+        </RenderModel>
       </div>
     </main>
   );
