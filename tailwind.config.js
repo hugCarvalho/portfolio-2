@@ -30,8 +30,8 @@ module.exports = {
       }
       },
       animation:{
-        'spin-slow': 'spin 40s linear infinite',
-        'spin-slow-reverse': 'spin-reverse 40s linear infinite',
+        'spin-slow': 'spin 120s linear infinite',
+        'spin-slow-reverse': 'spin-reverse 120s linear infinite',
       },
     },
   },

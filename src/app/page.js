@@ -1,7 +1,6 @@
+import Navigation from "@/components/navigation";
 import Image from "next/image";
 import bg from "../../public/background/home-background.png";
-
-
 
 export default function Home() {
   return (
@@ -14,6 +13,10 @@ export default function Home() {
         fill
         className="-z-50 w-full h-full object-cover object-center opacity-50"
       />
+
+      <div className="w-full h-screen">
+        <Navigation />
+      </div>
     </main>
   );
 }
