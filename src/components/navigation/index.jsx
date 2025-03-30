@@ -1,5 +1,4 @@
 "use client";
-import { BtnList } from "@/app/data";
 import { motion } from "framer-motion";
 import useScreenSize from "../hooks/useScreenSize";
 import ResponsiveComponent from "../ResponsiveComponent";
@@ -14,6 +13,31 @@ const container = {
     },
   },
 };
+
+const BtnList = [
+  // { label: "Home", link: "/", icon: "home", newTab: false },
+  { label: "About", link: "/about", icon: "about", newTab: false },
+  { label: "Projects", link: "/projects", icon: "projects", newTab: false },
+  { label: "Contact", link: "/contact", icon: "contact", newTab: false },
+  {
+    label: "Github",
+    link: "https://www.github.com/hugCarvalho",
+    icon: "github",
+    newTab: true,
+  },
+  {
+    label: "LinkedIn",
+    link: "",
+    icon: "linkedin",
+    newTab: true,
+  },
+  {
+    label: "Resume",
+    link: "/resume.pdf",
+    icon: "resume",
+    newTab: true,
+  },
+];
 
 const Navigation = () => {
   const angleIncrement = 360 / BtnList.length;

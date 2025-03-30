@@ -1,3 +1,4 @@
+import FireFliesBackground from "@/components/FireFliesBackground";
 import clsx from "clsx";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
         )}
       >
         {children}
+        <FireFliesBackground />
       </body>
     </html>
   );
