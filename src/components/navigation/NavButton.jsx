@@ -1,3 +1,5 @@
+import clsx from "clsx";
+import { motion } from "framer-motion";
 import {
   Github,
   Home,
@@ -5,14 +7,10 @@ import {
   NotebookText,
   Palette,
   Phone,
-  Twitter,
   User,
 } from "lucide-react";
 import Link from "next/link";
-import React from "react";
 import ResponsiveComponent from "../ResponsiveComponent";
-import clsx from "clsx";
-import { motion } from "framer-motion";
 
 const getIcon = (icon) => {
   switch (icon) {
@@ -28,8 +26,6 @@ const getIcon = (icon) => {
       return <Github className="w-full h-auto" strokeWidth={1.5} />;
     case "linkedin":
       return <Linkedin className="w-full h-auto" strokeWidth={1.5} />;
-    case "twitter":
-      return <Twitter className="w-full h-auto" strokeWidth={1.5} />;
     case "resume":
       return <NotebookText className="w-full h-auto" strokeWidth={1.5} />;
 

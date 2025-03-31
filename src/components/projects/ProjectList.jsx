@@ -37,7 +37,6 @@ const ProjectList = () => {
         return <ProjectListLayout key={index} {...project} />;
       })}
     </motion.div>
-
     </>
   );
 };
