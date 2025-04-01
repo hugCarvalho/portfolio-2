@@ -9,21 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.26",
-    "clsx": "^2.1.0",
+    "@emailjs/browser": "^4.4.1",
     "@react-three/drei": "^9.99.5",
     "@react-three/fiber": "^8.15.16",
-    "three": "^0.162.0",
+    "clsx": "^2.1.0",
     "framer-motion": "^11.0.8",
-    "lucide-react": "^0.344.0"
+    "lucide-react": "^0.344.0",
+    "next": "14.2.26",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.55.0",
+    "sonner": "^1.4.3",
+    "three": "^0.162.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
     "eslint": "^8",
-    "eslint-config-next": "14.2.26"
+    "eslint-config-next": "14.2.26",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
   }
 }
