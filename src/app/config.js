@@ -14,7 +14,7 @@ export const professionalProjectsData = [
     description: " - professional experience",
     startDate: "06.2023",
     endDate: "08.2024",
-    demoLink: "https://veerben.erblotse.de/",
+    demoLink: "https://vererben.erblotse.de/",
     icon: ""
   },
 ];
@@ -22,8 +22,8 @@ export const professionalProjectsData = [
 export const privateProjectsData = [
   {
     id: 3,
-    name: "Cafes & You",
-    description: " - private project",
+    name: "⭐️ Cafes & You",
+    description: " - private fullstack project",
     startDate: "2025",
     endDate: "",
     demoLink: "https://cafesandyou.netlify.app/",
@@ -40,11 +40,29 @@ export const privateProjectsData = [
   },
   {
     id: 5,
+    name: "Portfolio v.1",
+    description: " - private project",
+    startDate: "2021",
+    endDate: "",
+    demoLink: "https://hugcarvalho.github.io/portfolio",
+    icon: ""
+  },
+  {
+    id: 6,
     name: "Weather App",
     description: " - private project",
     startDate: "2020",
     endDate: "",
     demoLink: "https://awesome-payne-8bf6bd.netlify.app/",
+    icon: ""
+  },
+  {
+    id: 7,
+    name: "Todo App",
+    description: " - private project",
+    startDate: "2020",
+    endDate: "",
+    demoLink: "https://stoic-fermi-dcf04f.netlify.app/",
     icon: ""
   },
 ];

@@ -22,7 +22,7 @@ const ProjectList = () => {
       initial="hidden"
       animate="show"
     >
-      <h1 className="pb-16 text-5xl">Projects</h1>
+      <h1 className="pb-16 text-5xl text-accent">Projects</h1>
     </motion.div>
     <motion.div
       variants={container}
