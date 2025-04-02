@@ -1,10 +1,11 @@
+import Contact from "@/components/contact/Contact";
 
 export const metadata = {
   title: "Contact",
 };
 
 
-export default function Contact() {
+export default function ContactPage() {
   return (
     <>
       {/* <Image
