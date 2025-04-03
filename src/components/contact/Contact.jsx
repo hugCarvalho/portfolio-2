@@ -68,7 +68,6 @@ export default function Contact() {
 
   const onSubmit = (data) => {
     const templateParams = {
-      title: "Moi Meme",
       name: data.name,
       email: data.email,
       message: data.message,
@@ -89,8 +88,9 @@ export default function Contact() {
           initial="hidden"
           animate="show"
           variants={item}
-          className="text-accent font-semibold text-center text-4xl capitalize">
-            Contact Me
+          className="pb-6 text-accent font-semibold text-center text-5xl capitalize"
+        >
+          Contact Me
         </motion.h1>
         <motion.p
           initial="hidden"
@@ -114,7 +114,7 @@ export default function Contact() {
           initial="hidden"
           animate="show"
           variants={item}
-          className="flex items-center text-accent font-semibold text-center: "
+          className="pt-6 flex items-center text-accent font-semibold text-center: "
         >
           Or write a message below:
         </motion.p>
