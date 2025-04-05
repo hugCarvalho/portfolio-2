@@ -1,8 +1,12 @@
 import RenderModel from "@/components/RenderModel";
-import { Ufo } from "@/components/models/Ufo.jsx";
-import Navigation from "@/components/navigation";
+import Navigation from "@/components/navigation/Navigation";
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import bg from "../../public/background/home07.png";
+
+const Ufo = dynamic(() => import("@/components/models/Ufo"), {
+  ssr: false,
+});
 
 export default function Home() {
   return (
