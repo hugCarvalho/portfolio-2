@@ -15,7 +15,6 @@ const container = {
 };
 
 const BtnList = [
-  // { label: "Home", link: "/", icon: "home", newTab: false },
   { label: "About", link: "/about", icon: "about", newTab: false },
   { label: "Projects", link: "/projects", icon: "projects", newTab: false },
   { label: "Contact", link: "/contact", icon: "contact", newTab: false },
@@ -27,7 +26,7 @@ const BtnList = [
   },
   {
     label: "LinkedIn",
-    link: "",
+    link: "http://www.linkedin.com/in/hugo-c-8355b31b7",
     icon: "linkedin",
     newTab: true,
   },
