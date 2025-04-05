@@ -49,7 +49,7 @@ const Navigation = () => {
       <ResponsiveComponent>
         {({ size }) => {
           return size && size >= 480 ? (
-            <div
+            <motion.div
               variants={container}
               initial="hidden"
               animate="show"
@@ -67,7 +67,7 @@ const Navigation = () => {
 
                 return <NavButton key={btn.label} x={x} y={y} {...btn} />;
               })}
-            </div>
+            </motion.div>
           ) : (
             <>
               <motion.div

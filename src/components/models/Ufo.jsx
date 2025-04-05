@@ -2,9 +2,9 @@
 "use client"
 import { useGLTF } from '@react-three/drei';
 import { useFrame } from "@react-three/fiber";
-import { memo, useRef } from "react";
+import { useRef } from "react";
 
-const Ufo = memo(function Ufo(props) {
+function Ufo(props) {
   const { nodes, materials } = useGLTF('/models/ufo-transformed.glb')
     const modelRef = useRef();
 
@@ -38,7 +38,7 @@ const Ufo = memo(function Ufo(props) {
       />
     </group>
   )
-})
+}
 
 export default Ufo
 useGLTF.preload('/models/ufo-transformed.glb')
