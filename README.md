@@ -1,4 +1,5 @@
-## My second portfolio website. Built with Next.js and Tailwind CSS.
+## Second portfolio website
+Built with Next.js and Tailwind CSS.
 
 ## Credits
 
