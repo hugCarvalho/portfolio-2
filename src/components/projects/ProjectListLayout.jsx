@@ -13,7 +13,7 @@ const ProjectListLayout = ({ name, description, startDate, endDate, demoLink, ic
       variants={item}
       href={demoLink}
       target={"_blank"}
-      className=" text-sm md:text-base flex  items-center justify-between w-full relative rounded-lg overflow-hidden p-4 md:p-6 custom-bg"
+      className="text-sm md:text-base flex items-center justify-between w-full relative rounded-lg overflow-hidden px-3 py-4 md:p-6 custom-bg"
     >
       <div className="flex items-center justify-center space-x-2">
         <h2 className="text-foreground">{name}</h2>
