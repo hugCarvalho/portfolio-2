@@ -1,5 +1,12 @@
 import { techSkills } from "@/app/config";
+import { Contact } from "lucide-react";
 import ItemLayout from "./ItemLayout";
+{/* <CircleUserRound /> */}
+
+const getIcon = (icon) => {
+  // return <ContactRound className="w-full h-auto" strokeWidth={1.5} />;
+  // return <CircleUserRound />
+}
 
 const AboutDetails = () => {
   return (
@@ -7,7 +14,10 @@ const AboutDetails = () => {
       <div className="grid grid-cols-12 gap-4 xs:gap-6  md:gap-8 w-full">
         <ItemLayout className=" col-span-full lg:col-span-8 row-span-2 flex-col items-start">
           <h2 className="text-xl md:text-3xl text-left text-accent w-full capitalize">
-            Hugo Carvalho
+            <div className="flex gap-3 justify-center items-center">
+              <span><Contact className="sm:size-10 size-6" strokeWidth={1.5} /></span>
+              <span>Hugo Carvalho</span>
+            </div>
           </h2>
           <p className="font-light text-xs sm:text-sm md:text-base">
             A highly motivated and adaptable self-taught programmer with five years of practical experience building responsive and efficient applications within the React ecosystem.
