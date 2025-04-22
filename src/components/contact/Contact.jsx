@@ -55,6 +55,7 @@ export default function Contact() {
           );
         },
         (error) => {
+          console.log('%c Contact.jsx - line: 58 -->', 'color: white; background-color: #007a', error, '<-error')
           setIsLoading(false);
           toast.error(
             "There was an error sending your message, please try again later.",

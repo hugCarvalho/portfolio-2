@@ -10,6 +10,7 @@ export default function ContactPage() {
   return (
     <>
       <Image
+        priority
         src={bg}
         alt="Next.js Portfolio website's contact page background image"
         sizes="100vw"
