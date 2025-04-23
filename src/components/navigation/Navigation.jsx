@@ -36,6 +36,7 @@ const BtnList = [
     icon: "resume",
     newTab: true,
   },
+  { label: "Credits", link: "/credits", icon: "credits", newTab: true },
 ];
 
 const Navigation = () => {

@@ -1,13 +1,14 @@
 import clsx from "clsx";
 import { motion } from "framer-motion";
 import {
+  Copyright,
   Github,
   Home,
   Linkedin,
   NotebookText,
   Palette,
   Phone,
-  User,
+  User
 } from "lucide-react";
 import Link from "next/link";
 import ResponsiveComponent from "../ResponsiveComponent";
@@ -28,6 +29,8 @@ const getIcon = (icon) => {
       return <Linkedin className="w-full h-auto" strokeWidth={1.5} />;
     case "resume":
       return <NotebookText className="w-full h-auto" strokeWidth={1.5} />;
+    case "credits":
+      return <Copyright className="w-full h-auto" strokeWidth={1.5} />;
 
     default:
       return <Home className="w-full h-auto" strokeWidth={1.5} />;
