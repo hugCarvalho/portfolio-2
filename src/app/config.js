@@ -30,6 +30,15 @@ export const privateProjectsData = [
     icon: ""
   },
   {
+    id: 8,
+    name: "Karaoke List App",
+    description: " - private project",
+    startDate: "2025",
+    endDate: "",
+    demoLink: "https://karaoke-list-app.onrender.com/",
+    icon: ""
+  },
+  {
     id: 4,
     name: "Word Scrambler Game",
     description: " - private project",
