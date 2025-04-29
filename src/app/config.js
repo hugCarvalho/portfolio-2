@@ -35,7 +35,7 @@ export const privateProjectsData = [
     description: " - private project",
     startDate: "2025",
     endDate: "",
-    demoLink: "https://karaoke-list-app.onrender.com/",
+    demoLink: "https://github.com/hugCarvalho/karaoke-list-app",
     icon: ""
   },
   {
