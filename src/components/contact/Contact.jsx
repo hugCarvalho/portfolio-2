@@ -179,7 +179,7 @@ export default function Contact() {
             "
             type="submit"
           >
-            {`${isLoading ? "⏳" : "Send your message"}`}
+            {`${isLoading ? "⏳" : "Send message"}`}
           </motion.button>
         </form>
       </motion.div>

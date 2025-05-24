@@ -3,8 +3,8 @@ export const professionalProjectsData = [
     id: 1,
     name: "Erblotse - Erben",
     description: " - professional experience",
-    startDate: "02.2021",
-    endDate: "08.2024",
+    startDate: "2021",
+    endDate: "2025",
     demoLink: "https://erben.erblotse.de/",
     icon: ""
   },
@@ -12,8 +12,8 @@ export const professionalProjectsData = [
     id: 2,
     name: "Erblotse - Vererben",
     description: " - professional experience",
-    startDate: "06.2023",
-    endDate: "08.2024",
+    startDate: "2023",
+    endDate: "2025",
     demoLink: "https://vererben.erblotse.de/",
     icon: ""
   },

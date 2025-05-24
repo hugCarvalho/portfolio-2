@@ -1,3 +1,4 @@
+import { updatePageCount } from "@/lib/utils/utils.js";
 import clsx from "clsx";
 import { motion } from "framer-motion";
 import {
@@ -70,6 +71,9 @@ const NavButton = ({
               name={label}
               prefetch={false}
               scroll={false}
+              onClick={() => {
+                updatePageCount(label)
+              }}
             >
               <span className="relative  w-14 h-14 p-4 animate-spin-slow-reverse group-hover:pause hover:text-accent">
                 {getIcon(icon)}
