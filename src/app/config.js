@@ -24,8 +24,8 @@ export const privateProjectsData = [
     id: 3,
     name: "⭐️ Cafes & You",
     description: " - private fullstack project",
-    startDate: "2025",
-    endDate: "",
+    startDate: "2024",
+    endDate: "2025",
     demoLink: "https://cafesandyou.netlify.app/",
     icon: ""
   },
