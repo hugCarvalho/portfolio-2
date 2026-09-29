@@ -97,21 +97,24 @@ export default function Contact() {
           initial="hidden"
           animate="show"
           variants={item}
-          className="flex font-semibold"
+          className="flex items-center font-semibold text-3xl "
         >
-          <Mail className="pr-2" strokeWidth={.7}/>
+          <Mail className="h-6 w-6 mr-2 shrink-0" strokeWidth={0.7}/>
           <a href="mailto:hugo.berlinlife@gmail.com?subject=contact">hugo.berlinlife@gmail.com</a>
         </motion.p>
+        <br/>
         <motion.p
           initial="hidden"
           animate="show"
           variants={item}
-          className="flex font-semibold"
+          className="flex font-semibold text-xl"
         >
           <Phone className="pr-1" strokeWidth={.7}/>
           <a href="tel:+4917678293187">+49 176 7829 3187</a>
         </motion.p>
-        <motion.p
+
+        {/* CONTACT FORM */}
+        {/* <motion.p
           initial="hidden"
           animate="show"
           variants={item}
@@ -181,7 +184,7 @@ export default function Contact() {
           >
             {`${isLoading ? "⏳" : "Send message"}`}
           </motion.button>
-        </form>
+        </form> */}
       </motion.div>
     </>
   );
