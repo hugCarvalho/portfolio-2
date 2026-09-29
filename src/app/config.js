@@ -26,7 +26,7 @@ export const privateProjectsData = [
   {
     id: 10,
     name: "⭐️ Travel Log",
-    description: " - private project",
+    description: " - private fullstack project",
     startDate: "2026",
     endDate: "",
     demoLink: "https://travelslog.netlify.app/login",
@@ -56,12 +56,22 @@ export const privateProjectsData = [
   {
     id: 8,
     name: "Karaoke List App",
-    description: " - private project",
+    description: " - private fullstack project",
     startDate: "2025",
     endDate: "",
     demoLink: "https://github.com/hugCarvalho/karaoke-list-app",
     icon: "",
     techs: ["React", "TS", "React Router", "Zod", "Node.js", "MongoDB", "Chakra UI", "Jest", "Testing Library", "OpenAI", "Music Brainz API"]
+  },
+  {
+    id: 11,
+    name: "Portfolio v.2",
+    description: " - this website",
+    startDate: "2025",
+    endDate: "",
+    demoLink: "",
+    icon: "",
+    techs: ["nextJs", "JS", "tailwindCss", "threeJs", "framerMotion", "emailJs"]
   },
   {
     id: 4,
