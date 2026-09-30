@@ -30,12 +30,12 @@ const BtnList = [
     icon: "linkedin",
     newTab: true,
   },
-  {
-    label: "Resume",
-    link: "/resume.pdf",
-    icon: "resume",
-    newTab: true,
-  },
+  // {
+  //   label: "Resume",
+  //   link: "/resume.pdf",
+  //   icon: "resume",
+  //   newTab: true,
+  // },
   { label: "Credits", link: "/credits", icon: "credits", newTab: true },
 ];
 
